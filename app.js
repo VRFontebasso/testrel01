@@ -61,7 +61,7 @@ function pagarClicked() {
     }
 
     mensaje += `%0ATotal a pagar: R$${total.toFixed(2).replace('.', ',')}`;
-    var telefono = "11961887553";
+    var telefono = "011961887553";
     var whatsappUrl = `https://wa.me/${telefono}?text=${mensaje}`;
 
     // Abre WhatsApp en una nueva ventana/tab del navegador
